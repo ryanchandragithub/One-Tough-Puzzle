@@ -14,11 +14,11 @@ public class Piece {
 	private int		orientation;	// orientation as an int
 	private String	name;			// ID
 					
-	public Piece(int[] newSides, String newName)
+	public Piece(int[] newSides, int newOrientation, String newName)
 	// constructor
 	{
 		sides = newSides;
-		orientation = 0;
+		orientation = newOrientation;
 		name = newName;
 	}
 	
